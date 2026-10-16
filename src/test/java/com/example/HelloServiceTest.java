@@ -10,6 +10,6 @@ class HelloServiceTest {
     void shouldGreetUser() {
         HelloService service = new HelloService();
 
-        assertEquals("Hello, Alice", service.greet1("Alice"));
+        assertEquals("Hello, Alice", service.greet("Alice"));
     }
 }
